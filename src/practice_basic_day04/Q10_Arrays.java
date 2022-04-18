@@ -19,7 +19,6 @@ public class Q10_Arrays {
         cumle = cumle.replaceAll(" ", "");
 
         String arr[]=cumle.split("");
-
         System.out.println(Arrays.toString(arr));
         int sayac =0;
         for (int i = 0; i < arr.length ; i++) {
@@ -27,6 +26,9 @@ public class Q10_Arrays {
         }
 
         System.out.println(sayac);
+
+
+
 
 
     }
