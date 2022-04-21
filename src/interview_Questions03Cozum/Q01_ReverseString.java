@@ -16,7 +16,7 @@ public class Q01_ReverseString {
         StringBuilder str = new StringBuilder();
         str.append(input);//bu method String builder a ekleme yapar
 
-        String reverseInput = str.reverse().toString();
+        String reverseInput = str.reverse().toString();// değiştirilebilir String elde etmemize olanak tanır
         System.out.println("1.yol :" + reverseInput); //1. yol :llew si llA
 
 
@@ -35,7 +35,8 @@ public class Q01_ReverseString {
 
     }//main sonu
     private static void inputTersArray(String input) {
-        char [] arr = input.toCharArray(); //String bir veriyi karakterlere char tipinde ayirir..
+        char [] arr = input.toCharArray(); //String bir veriyi karakterlere char tipinde ayirir.
+                                           // string bir veriyi karakterlere char tipinde ayirir ayni split gibi// .
 
         for (int i = input.length()-1; i >=0 ; i--) {
             System.out.print(arr[i]);

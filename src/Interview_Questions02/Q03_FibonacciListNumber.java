@@ -16,8 +16,8 @@ public class Q03_FibonacciListNumber {
         Scanner scan = new Scanner(System.in);
         System.out.print("bir sayi giriniz :");
         int sayi = scan.nextInt();
-        fibonacci.add(0);
-        fibonacci.add(1);
+        fibonacci.add(0); // genel gecer bunu ekliyoruz.
+        fibonacci.add(1); // genel gecer bunu ekliyoruz.
 
         int i=1;
         if(sayi<=1){

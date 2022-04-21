@@ -32,9 +32,11 @@ public class Q02_Palindrome {
         }else System.out.print("girilen ifade palindrom degildir ->" +tersStr);
     }
 
-    private static void palindomeWithStringBuilder(String str) {
+    private static void palindomeWithStringBuilder(String str) {// str yazilsa bile yukaridaki ifade'dir aslinda
           StringBuilder sb = new StringBuilder(str);
-          String tersStr = sb.reverse().toString();
+          String tersStr = sb.reverse().toString(); // String olan bir ifadeye StringBuilder olan bir
+                                                   // ozellik eklenemez bu yuzden bunu string yapmaliyiz
+                                                   //onu da toString methoduyla yaiypruz
           if(tersStr.equalsIgnoreCase(str)){
               System.out.println("girilen ifade palindomdur -> " + tersStr);
           }else System.out.println("girilen ifade palindrom degildir ->" +tersStr);
