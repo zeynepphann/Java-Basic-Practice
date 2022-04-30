@@ -1,4 +1,4 @@
-package interview_Questions08;
+package interview_Questions08_Cozum;
 
 import java.util.ArrayList;
 import java.util.HashSet;
