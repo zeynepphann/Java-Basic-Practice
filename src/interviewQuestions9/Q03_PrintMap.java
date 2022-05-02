@@ -26,6 +26,13 @@ public class Q03_PrintMap {
             System.out.println(entryYeni.getKey() + " " + entryYeni.getValue() );
         }
 
+        System.out.println(map.keySet());//[Kiraz, Incir, Enginar, Üzüm, Nar]
+        System.out.println(map.values());//[100, 200, 150, 145, 250]
+        System.out.println(map.containsKey(100));//false
+        System.out.println(map.containsValue(100));//true
+        System.out.println(map.containsKey("Nar"));//true
+
+
 
     }
 }
