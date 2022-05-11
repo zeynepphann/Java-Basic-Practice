@@ -35,10 +35,10 @@ public class C7_DosyaOkuma {
     //satir.forEach(t->System.out.println(t));
 
     //S2: tum harflari buyuk harf ile yazdiralim
-    //satir.map(String ::toUpperCase).forEach(System.out::println);
+    // satir.map(String ::toUpperCase).forEach(System.out::println);
 
     // S3: son satiri buyuk harfle yazdiralim
-    //satir.skip(4).map(String ::toUpperCase).forEach(System.out::println);
+    // satir.skip(4).map(String ::toUpperCase).forEach(System.out::println); skip atla
 
     //S4: 2.ve 3. satirlari yazdiralim
     //    satir.skip(1).limit(2).forEach(System.out::println);
