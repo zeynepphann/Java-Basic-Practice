@@ -10,11 +10,12 @@ public class Q01_UsingDoWhilePrintNumber {
         increment by 5
         for example: 0   5   10  15  20
      */
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //System.out.println("sayi giriniz :");
         int sayi = scanner.nextInt();
-
+        System.out.println("djdjjdjdjd");
         do {
             System.out.print(sayi + " "); // istenen stilde yazdirma
             sayi+=5; // increment degeri
